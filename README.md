@@ -8,7 +8,7 @@ This repository contains a Jupyter notebook that demonstrates the step-by-step c
   A complete workflow including:
   - Random generation and motif-based assembly of Synmask sequences
   - Diversity filtering based on motif usage
-  - Secondary structure prediction using PSIPred, ProtBert, and AlphaFold2
+  - Secondary structure prediction using S4PRED, ProtBert, and AlphaFold2
   - Immunogenicity screening via NetMHCpan (MHC-I and MHC-II)
   - Motif repetition control to improve expressibility
 
@@ -29,9 +29,9 @@ This repository contains a Jupyter notebook that demonstrates the step-by-step c
 
 ## 🛠 External Tools
 
-- [**PSIPRED / s4pred**](https://github.com/psipred/s4pred)  
+- [**S4PRED**](https://github.com/psipred/s4pred)  
   Used for fast secondary structure prediction of full-length Synmask sequences.  
-  Model weights are available via the repository; supports GPU acceleration.
+  Model weights are available via the repository.
 
 - [**ProtBert-BFD-SS3**](https://huggingface.co/Rostlab/prot_bert_bfd_ss3)  
   A transformer-based model for secondary structure prediction.  
