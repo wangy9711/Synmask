@@ -1,0 +1,17 @@
+Training data:
+Without Context:
+/home/projects/vaccine/people/morni/netMHCIIpan_retrain/4.1_DRupdate_DQ4corrected/train_BergsengSA_wo_context/data/
+With Context:
+/home/projects/vaccine/people/morni/netMHCIIpan_retrain/4.1_DRupdate_DQ4corrected/train_BergsengSA/data
+
+Synapses:
+Without Context:
+/home/projects/vaccine/people/morni/netMHCIIpan_retrain/4.1_DRupdate_DQ4corrected/train_BergsengSA_wo_context/SYN
+With Context:
+/home/projects/vaccine/people/morni/netMHCIIpan_retrain/4.1_DRupdate_DQ4corrected/train_BergsengSA/SYN
+
+Thresholds:
+Without Context:
+/home/projects/vaccine/people/morni/netMHCIIpan_retrain/4.1_DRupdate_DQ4corrected/train_BergsengSA_wo_context/threshold
+With Context:
+/home/projects/vaccine/people/morni/netMHCIIpan_retrain/4.1_DRupdate_DQ4corrected/train_BergsengSA/threshold

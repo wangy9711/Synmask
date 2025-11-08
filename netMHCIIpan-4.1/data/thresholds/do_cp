@@ -1,0 +1,9 @@
+#! /bin/tcsh 
+
+foreach f ( `ls -ltr /home/projects/vaccine/people/morni/netMHCIIpan_retrain/4.1_DRupdate_DQ4corrected/train_BergsengSA_wo_context/threshold/*.elcont | args 9 | tr "/" " " | gawk '{print $NF}' | tr "." " " | args 1` )
+
+cp /home/projects/vaccine/people/morni/netMHCIIpan_retrain/4.1_DRupdate_DQ4corrected/train_BergsengSA_wo_context/threshold/$f.thr.elcont $f.thr.el
+
+cp /home/projects/vaccine/people/morni/netMHCIIpan_retrain/4.1_DRupdate_DQ4corrected/train_BergsengSA/threshold/$f.thr.elcont .
+
+end

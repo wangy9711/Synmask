@@ -1,0 +1,26 @@
+# NetMHCIIpan version 4.1
+
+# Input is in PEPTIDE format
+
+# Prediction Mode: EL+BA with Context
+
+# Threshold for Strong binding peptides (%Rank)	1%
+# Threshold for Weak binding peptides (%Rank)	5%
+
+# Allele: DRB1_0101
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Pos           MHC              Peptide   Of        Core  Core_Rel        Identity      Score_EL %Rank_EL Exp_Bind      Score_BA  Affinity(nM) %Rank_BA  BindLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+   1     DRB1_0101      NKSYRAEIAHNVSSK    3   YRAEIAHNV     1.000        Sequence      0.987732     0.16    0.928      0.617463         62.74     0.59   <=SB
+   2     DRB1_0101        EPEFDYLKSLEIE    3   FDYLKSLEI     1.000        Sequence      0.989035     0.14    0.914      0.521783        176.66     2.32   <=SB
+   3     DRB1_0101       SNRFIITKAERIIK    3   FIITKAERI     1.000        Sequence      0.990752     0.13    0.913      0.602189         74.01     0.75   <=SB
+   4     DRB1_0101     DPEFQLLKAWPSMKIL    3   FQLLKAWPS     1.000        Sequence      0.986095     0.17    0.910      0.615045         64.40     0.61   <=SB
+   5     DRB1_0101     SSSINALSAIPIPKKE    3   INALSAIPI     1.000        Sequence      0.990841     0.12    0.907      0.591520         83.07     0.88   <=SB
+   6     DRB1_0101    TSTFHYLLSHPAIADRK    3   FHYLLSHPA     0.913        Sequence      0.973015     0.28    0.902      0.705149         24.29     0.10   <=SB
+   7     DRB1_0101       DVYHAFQSVHVAPN    2   YHAFQSVHV     1.000        Sequence      0.976543     0.25    0.895      0.535051        153.03     1.94   <=SB
+   8     DRB1_0101     NPHYYSKLISFKMIDE    4   YSKLISFKM     1.000        Sequence      0.964110     0.34    0.895      0.561170        115.36     1.39   <=SB
+   9     DRB1_0101        TPDYLTLSAQTLN    3   YLTLSAQTL     1.000        Sequence      0.988692     0.15    0.889      0.516851        186.34     2.46   <=SB
+  10     DRB1_0101       KGKFVSAMSNRSSN    3   FVSAMSNRS     1.000        Sequence      0.979845     0.22    0.887      0.582573         91.51     1.01   <=SB
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 10 Number of weak binders: 0
+--------------------------------------------------------------------------------------------------------------------------------------------

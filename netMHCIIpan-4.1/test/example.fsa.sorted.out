@@ -1,0 +1,69 @@
+# NetMHCIIpan version 4.1
+
+# Input is in FASTA format
+
+# Peptide length 15
+
+# Prediction Mode: EL
+
+# Threshold for Strong binding peptides (%Rank)	1%
+# Threshold for Weak binding peptides (%Rank)	5%
+
+# Allele: H-2-IAb
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Pos           MHC              Peptide   Of        Core  Core_Rel        Identity      Score_EL %Rank_EL Exp_Bind  BindLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+ 110       H-2-IAb      HKGFKGVDAQGTLSK    3   FKGVDAQGT     1.000            seq1      0.604830     0.83       NA   <=SB
+  64       H-2-IAb      RTAHYGSLPQKSHGR    3   HYGSLPQKS     0.993            seq1      0.462564     1.52       NA   <=WB
+  89       H-2-IAb      FKNIVTPRTPPPSQG    3   IVTPRTPPP     0.960            seq1      0.245801     3.76       NA   <=WB
+  11       H-2-IAb      GSKYLATASTMDHAR    3   YLATASTMD     0.867            seq1      0.224939     4.18       NA   <=WB
+  92       H-2-IAb      IVTPRTPPPSQGKGR    3   PRTPPPSQG     0.993            seq1      0.201093     4.73       NA   <=WB
+  86       H-2-IAb      VHFFKNIVTPRTPPP    3   FKNIVTPRT     0.713            seq1      0.142556     6.60       NA       
+  77       H-2-IAb      GRTQDENPVVHFFKN    4   DENPVVHFF     0.987            seq1      0.123942     7.43       NA       
+ 131       H-2-IAb      RDSRSGSPMARRELV    4   SGSPMARRE     0.920            seq1      0.056704    13.48       NA       
+  13       H-2-IAb      KYLATASTMDHARHG    3   ATASTMDHA     0.333            seq1      0.027256    21.55       NA       
+   6       H-2-IAb      PSQRHGSKYLATAST    3   RHGSKYLAT     0.653            seq1      0.018346    26.97       NA       
+  56       H-2-IAb      YKDSHHPARTAHYGS    4   HHPARTAHY     0.773            seq1      0.015547    29.50       NA       
+  97       H-2-IAb      TPPPSQGKGRKSAHK    3   PSQGKGRKS     0.900            seq1      0.015287    29.77       NA       
+  54       H-2-IAb      NMYKDSHHPARTAHY    3   KDSHHPART     0.333            seq1      0.011728    34.17       NA       
+  41       H-2-IAb      IGRFFGGDRGAPKNM    4   FGGDRGAPK     0.600            seq1      0.011714    34.20       NA       
+  83       H-2-IAb      NPVVHFFKNIVTPRT    3   VHFFKNIVT     0.353            seq1      0.011530    34.48       NA       
+ 106       H-2-IAb      RKSAHKGFKGVDAQG    4   HKGFKGVDA     0.833            seq1      0.010921    35.44       NA       
+  52       H-2-IAb      PKNMYKDSHHPARTA    3   MYKDSHHPA     0.273            seq1      0.009892    37.23       NA       
+ 113       H-2-IAb      FKGVDAQGTLSKIFK    4   DAQGTLSKI     0.467            seq1      0.008175    40.73       NA       
+  29       H-2-IAb      LPRHRDTGILDSIGR    3   HRDTGILDS     0.453            seq1      0.006242    45.95       NA       
+ 128       H-2-IAb      LGGRDSRSGSPMARR    4   DSRSGSPMA     0.447            seq1      0.006007    46.73       NA       
+ 115       H-2-IAb      GVDAQGTLSKIFKLG    3   AQGTLSKIF     0.520            seq1      0.004624    52.08       NA       
+  71       H-2-IAb      LPQKSHGRTQDENPV    3   KSHGRTQDE     0.553            seq1      0.004104    54.45       NA       
+  60       H-2-IAb      HHPARTAHYGSLPQK    3   ARTAHYGSL     0.620            seq1      0.003685    56.76       NA       
+  34       H-2-IAb      DTGILDSIGRFFGGD    3   ILDSIGRFF     0.813            seq1      0.003425    58.29       NA       
+ 124       H-2-IAb      KIFKLGGRDSRSGSP    3   KLGGRDSRS     0.627            seq1      0.003303    59.01       NA       
+ 104       H-2-IAb      KGRKSAHKGFKGVDA    3   KSAHKGFKG     0.360            seq1      0.002864    62.04       NA       
+ 122       H-2-IAb      LSKIFKLGGRDSRSG    3   IFKLGGRDS     0.327            seq1      0.002494    64.82       NA       
+ 117       H-2-IAb      DAQGTLSKIFKLGGR    3   GTLSKIFKL     0.587            seq1      0.002441    65.27       NA       
+  73       H-2-IAb      QKSHGRTQDENPVVH    4   GRTQDENPV     0.333            seq1      0.002406    65.59       NA       
+  74       H-2-IAb      KSHGRTQDENPVVHF    4   RTQDENPVV     0.300            seq1      0.002239    67.13       NA       
+  49       H-2-IAb      RGAPKNMYKDSHHPA    4   KNMYKDSHH     0.213            seq1      0.002184    67.64       NA       
+  31       H-2-IAb      RHRDTGILDSIGRFF    3   DTGILDSIG     0.560            seq1      0.001994    69.39       NA       
+  46       H-2-IAb      GGDRGAPKNMYKDSH    3   RGAPKNMYK     0.553            seq1      0.001993    69.40       NA       
+  22       H-2-IAb      DHARHGFLPRHRDTG    3   RHGFLPRHR     0.473            seq1      0.001954    69.76       NA       
+  16       H-2-IAb      ATASTMDHARHGFLP    3   STMDHARHG     0.593            seq1      0.001894    70.39       NA       
+  20       H-2-IAb      TMDHARHGFLPRHRD    4   ARHGFLPRH     0.400            seq1      0.001804    71.43       NA       
+ 138       H-2-IAb      PMARRELVISLIVES    6   LVISLIVES     0.527            seq1      0.001597    73.82       NA       
+  68       H-2-IAb      YGSLPQKSHGRTQDE    4   PQKSHGRTQ     0.513            seq1      0.001567    74.17       NA       
+  38       H-2-IAb      LDSIGRFFGGDRGAP    5   RFFGGDRGA     0.333            seq1      0.001418    76.09       NA       
+   1       H-2-IAb      ASQKRPSQRHGSKYL    3   KRPSQRHGS     0.473            seq1      0.001401    76.33       NA       
+  18       H-2-IAb      ASTMDHARHGFLPRH    3   MDHARHGFL     0.587            seq1      0.001243    78.56       NA       
+ 101       H-2-IAb      SQGKGRKSAHKGFKG    3   KGRKSAHKG     0.433            seq1      0.001089    80.86       NA       
+  19       H-2-IAb      STMDHARHGFLPRHR    4   HARHGFLPR     0.187            seq1      0.001087    80.89       NA       
+ 118       H-2-IAb      AQGTLSKIFKLGGRD    3   TLSKIFKLG     0.360            seq1      0.001045    81.58       NA       
+ 120       H-2-IAb      GTLSKIFKLGGRDSR    4   KIFKLGGRD     0.247            seq1      0.000973    82.76       NA       
+ 119       H-2-IAb      QGTLSKIFKLGGRDS    3   LSKIFKLGG     0.240            seq1      0.000779    86.07       NA       
+  36       H-2-IAb      GILDSIGRFFGGDRG    3   DSIGRFFGG     0.280            seq1      0.000647    88.52       NA       
+  25       H-2-IAb      RHGFLPRHRDTGILD    3   FLPRHRDTG     0.440            seq1      0.000606    89.28       NA       
+ 137       H-2-IAb      SPMARRELVISLIVE    4   RRELVISLI     0.373            seq1      0.000546    90.44       NA       
+  37       H-2-IAb      ILDSIGRFFGGDRGA    5   GRFFGGDRG     0.233            seq1      0.000516    91.06       NA       
+ 135       H-2-IAb      SGSPMARRELVISLI    3   PMARRELVI     0.160            seq1      0.000216    95.00       NA       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 1 Number of weak binders: 4
+--------------------------------------------------------------------------------------------------------------------------------------------

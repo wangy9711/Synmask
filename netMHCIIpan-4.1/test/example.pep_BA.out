@@ -1,0 +1,25 @@
+# NetMHCIIpan version 4.1
+
+# Input is in PEPTIDE format
+
+# Prediction Mode: EL+BA
+
+# Threshold for Strong binding peptides (%Rank)	1%
+# Threshold for Weak binding peptides (%Rank)	5%
+
+# Allele: DRB1_0101
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Pos           MHC              Peptide   Of        Core  Core_Rel        Identity      Score_EL %Rank_EL Exp_Bind      Score_BA  Affinity(nM) %Rank_BA  BindLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+   1     DRB1_0101        AAAGAEAGKATTE    1   AAGAEAGKA     0.513        Sequence      0.000823    82.46    0.000      0.101498      16673.78    95.00       
+   2     DRB1_0101      AALAAAAGVPPADKY    2   LAAAAGVPP     0.980        Sequence      0.093030    11.14    0.300      0.557655        119.83    13.64       
+   3     DRB1_0101         EKPGNRNPYENL    3   GNRNPYENL     0.667        Sequence      0.000057    95.00    0.670      0.059182      26355.76    95.00       
+   4     DRB1_0101      STWLLKPGAGIMIFD    4   LKPGAGIMI     0.660        Sequence      0.052588    15.49    0.000      0.729447         18.68     1.94       
+   5     DRB1_0101      KSVPLEMLLINLTTI    4   LEMLLINLT     0.873        Sequence      0.010918    33.69    0.560      0.628751         55.52     6.88       
+   6     DRB1_0101      KTKEDLFGKKNLIPS    5   LFGKKNLIP     0.540        Sequence      0.002402    61.51    0.670      0.342118       1234.15    51.21       
+   7     DRB1_0101      KIYHKCDNACIGSIR    2   YHKCDNACI     0.800        Sequence      0.006157    43.01    0.940      0.469551        310.86    26.21       
+   8     DRB1_0101      PCLFMRTVSHVILHG    3   FMRTVSHVI     0.960        Sequence      0.059477    14.50    0.345      0.693602         27.53     3.18       
+   9     DRB1_0101      GAATVAAGAATTAAG    4   VAAGAATTA     0.887        Sequence      0.155399     8.03    0.000      0.485981        260.23    23.51       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 0 Number of weak binders: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
