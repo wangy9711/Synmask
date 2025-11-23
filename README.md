@@ -1,10 +1,19 @@
-# Synmask Sequence Filtering Pipeline
+# Synmask Selection and Combination Pipeline
 
-This repository contains a Jupyter notebook that demonstrates the step-by-step computational pipeline for filtering and selecting Synmask sequences based on structural and immunological criteria.
+This repository contains 2 Jupyter notebooks that demonstrate the step-by-step selection pipeline for Syn-mask and combination pipeline for Synmask  based on structural and immunological criteria.
 
 ## 📘 Contents
 
-- **`filter_step.ipynb`**  
+- **`motif_selection.ipynb`**  
+  A complete workflow including:
+	-	Extraction of disordered fragments from PDB structures
+	-	Identification of unresolved (missing-density) regions from SEQRES/ATOM mismatch
+	-	Multi-stage filtering to remove low-complexity motifs, linker-like patterns, and undesired residue compositions
+	-	Secondary structure screening using S4PRED, ProtBert, and AlphaFold2+DSSP
+	-	Final refinement via amino-acid substitution/removal and re-prediction
+	-	Selection of intrinsically disordered Syn-motif candidates for synthesis
+
+- **`motif_combination.ipynb`**  
   A complete workflow including:
   - Random generation and motif-based assembly of Synmask sequences
   - Diversity filtering based on motif usage
@@ -58,6 +67,6 @@ This repository contains a Jupyter notebook that demonstrates the step-by-step c
 
 ## 📈 Output
 
-- Ranked and filtered Synmask candidates
+- Ranked and filtered Syn-motif / Synmask candidates
 - Summary tables for each screening stage
 - Ready-to-use sequences for downstream experimental validation
